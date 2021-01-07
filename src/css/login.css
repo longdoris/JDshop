@@ -239,6 +239,7 @@
 }
 .login-btn>a{
     color: #fff;
+    outline: none;
 }
 .mr-nav2ma,.mr-nav2hao{
     display: none;
