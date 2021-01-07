@@ -1,0 +1,311 @@
+.inform1{
+    display: flex;
+    margin-top: 20px;
+}
+.main1-l {
+    width: 190px;
+    height: 260px;
+    background-color: #e83632;
+    background-image: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/4a15d8883775742e3efbb850ae14def7.png);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main1-l>h5 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding-top: 31px;
+}
+
+.main1-l p {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 90px;
+    margin-bottom: 20px;
+
+}
+
+.main1-l p span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main1-l div {
+    width: 130px;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.main1-l div span {
+    /* float: left; */
+}
+
+.main1-l div span:nth-child(2n-1) {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+}
+
+i {
+    font-style: normal;
+}
+
+.main1-l div span:nth-child(2n) {
+    width: 20px;
+    height: 30px;
+}
+
+.main1-c {
+    width: 610px;
+    height: 260px;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+}
+
+.main1-c>div {
+    width: 610px;
+    height: 260px;
+    overflow: hidden;
+}
+
+.main1-c>div>div {
+    height: 260px;
+    width: 1830px;
+}
+
+.main1-c>div>div>div {
+    width: 610px;
+    height: 260px;
+    display: flex;
+}
+
+.main1-c>div>div>div>a {
+    width: 200px;
+    height: 260px;
+}
+
+.main1-c div img {
+    width: 140px;
+    height: 140px;
+    margin: 20px auto;
+}
+
+.main1-c>div>div>div div {
+    width: 260px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.main1-c>span:nth-child(2) {
+    left: 580px;
+}
+
+.main1-c img {
+    margin-top: 30px;
+}
+
+.main1-c p {
+    margin: 13px 21px 0;
+}
+
+.main1-c div>span:nth-child(1) {
+    width: 92px;
+    height: 22px;
+    background-color: #e1251b;
+    float: left;
+    line-height: 22px;
+    color: #fff;
+    border-bottom: 1px solid #e1251b;
+}
+
+.main1-c div>span:nth-child(1) span {
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+}
+
+.main1-c div>span:nth-child(1) span::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-color: transparent white transparent transparent;
+    border-style: solid;
+    border-width: 22px 8px 0 0;
+    position: absolute;
+    top: 0;
+    left: 57px;
+}
+
+.main1-c div>span:nth-child(2) {
+    width: 66px;
+    height: 21px;
+    border: 1px solid #e1251b;
+    float: left;
+    line-height: 22px;
+    border-left: none;
+}
+
+.main1-r {
+    width: 170px;
+    height: 260px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.main1-r>div {
+    width: 340px;
+    height: 240px;
+}
+
+.main1-r>div div {
+    float: left;
+    width: 170px;
+}
+
+.main1-r img {
+    width: 120px;
+    height: 120px;
+    margin: 30px auto;
+}
+
+.main1-r h5 {
+    font-size: 14px;
+    color: #666;
+    line-height: 28px;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.main1-r p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.page {
+    width: 990px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+
+.grid {
+    width: 990px;
+    height: 42px;
+    margin: 30px 0;
+}
+
+.grid ul {
+    overflow: hidden;
+}
+
+.grid ul li {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444444;
+    line-height: 42px;
+    margin: 0 19px;
+}
+
+.grid h5 {
+    float: left;
+    width: 36px;
+    height: 42px;
+    overflow: hidden;
+}
+
+.grid p {
+    float: left;
+    margin-left: 10px;
+}
+
+.grid li:nth-child(1) h5 {
+    background: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/23f3ddf914b1b527d0429a3d713cfe3a.png) no-repeat 0 -192px;
+}
+
+.grid li:nth-child(2) h5 {
+    background: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/23f3ddf914b1b527d0429a3d713cfe3a.png) no-repeat -41px -192px;
+}
+
+.grid li:nth-child(3) h5 {
+    background: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/23f3ddf914b1b527d0429a3d713cfe3a.png) no-repeat -82px -192px;
+}
+
+.grid li:nth-child(4) h5 {
+    background: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/23f3ddf914b1b527d0429a3d713cfe3a.png) no-repeat -123px -192px;
+}
+
+.mod_help {
+    width: 990px;
+    height: 200px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mod_help a {
+    color: #666;
+    line-height: 24px;
+}
+
+.mod_help ul {
+    width: 120px;
+    color: #666;
+}
+
+.mod_help ul li:nth-child(1) {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.copy {
+    height: 200px;
+    width: 990px;
+    text-align: center;
+    color: #666;
+}
+
+.copy a {
+    color: #666;
+}
+
+.copy p {
+    line-height: 24px;
+}
+
+.copy ul {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.copy ul li {
+    float: left;
+    padding: 0px 6px;
+    border-right: 1px solid #ccc;
+}
+
+.copy li:last-child {
+    border-right: none;
+}
