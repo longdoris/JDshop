@@ -4,49 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>详情页</title>
     <link rel="stylesheet" href="../css/detailpage.css">
     <link rel="stylesheet" href="../css/public01.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-    <div class="top">
-        <div>
-            <div class="top-one">
-                <a href="https://www.jd.com/"><img src="../img/logo-201305-b.png" alt=""></a>
-                <div class="top-inp">
-                    <input type="text" name="search">
-                    <input type="submit" name="tijiao" value="搜索">
-                </div>
-                <div class="che">
-                    <img src="" alt="">
-                    <span>我的购物车</span>
-                </div>
-            </div>
-        </div>
-        <div class="top-two">
-            <ul>
-                <li>
-                    <a href="">精选</a>
-                    <a href="">猜你喜欢</a></li>
-                <li>
-                    <a href="">智能先锋</a>
-                    <a href="">大电器城</a></li>
-                <li>
-                    <a href="">居家优品</a>
-                    <a href="">品质生活</a></li>
-                <li>
-                    <a href="">超市百货</a>
-                    <a href="">百货生鲜</a></li>
-                <li>
-                    <a href="">时尚达人</a>
-                    <a href="">美妆穿搭</a></li>
-                <li>
-                    <a href="">进口好物</a>
-                    <a href="">京东国际</a></li>
-            </ul>
-        </div>
-    </div>
+    <div class="top"></div>
     <ul class="bian">
         <li><a href="">京东秒杀</a></li>
         <li><a href="">特色优选</a></li>
@@ -57,77 +24,56 @@
         <li><a href="">返回顶部</a></li>
     </ul>
 
-
     <div class="nav">
-        <div>
-            <div>
-                <a href=""><span>京东首页</span></a>
-                <a href=""><i>广东</i></a>
-                <div class="nav-add">
-                    <ul>
-                        <li><a href="">海外</a></li>
-                        <li><a href="">上海</a></li>
-                        <li><a href="">北京</a></li>
-                        <li><a href="">天津</a></li>
-                        <li><a href="">重庆</a></li>
-                        <li><a href="">河北</a></li>
-                        <li><a href="">山西</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="">河南</a></li>
-                        <li><a href="">辽宁</a></li>
-                        <li><a href="">吉林</a></li>
-                        <li><a href="">黑龙江</a></li>
-                        <li><a href="">内蒙古</a></li>
-                        <li><a href="">江苏</a></li>
-                        <li><a href="">山东</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="">安徽</a></li>
-                        <li><a href="">浙江</a></li>
-                        <li><a href="">福建</a></li>
-                        <li><a href="">湖北</a></li>
-                        <li><a href="">湖南</a></li>
-                        <li><a href="">广东</a></li>
-                        <li><a href="">广西</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="">江西</a></li>
-                        <li><a href="">四川</a></li>
-                        <li><a href="">海南</a></li>
-                        <li><a href="">贵州</a></li>
-                        <li><a href="">云南</a></li>
-                        <li><a href="">西藏</a></li>
-                        <li><a href="">陕西</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="">甘肃</a></li>
-                        <li><a href="">青海</a></li>
-                        <li><a href="">宁夏</a></li>
-                        <li><a href="">新疆</a></li>
-                        <li><a href="">港澳</a></li>
-                        <li><a href="">台湾</a></li>
-                        <li><a href="">钓鱼岛</a></li>
-                    </ul>
-                </div>
-            </div>
-            <ul>
-                <li><a href="">你好，请登录</a></li>
-                <li><a href="">免费注册</a></li>
+        <div class="nav-m main">
+            <ul class="fl">
+                <li class="fl-li">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-icon-test"></use>
+                    </svg>
+                    <div class="prevince">
+
+                        <!-- <ul class="drop-ul">
+                            <li class="drop-ulli"><a href="#">北京</a></li>
+                        </ul> -->
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="fr">
+                <li class="fore0 fore1">
+                    <a class="link-login" href="./src/pages/login.html">你好，请登录</a>
+                    &nbsp;&nbsp;
+                    <a class="link-regist" href="#">免费注册</a>
+                </li>
                 <li class="spacer"></li>
-                <li><a href="">我的订单</a></li>
+                <li class="fore1">
+                    <a href="//order.jd.com/center/list.action">我的订单</a>
+                </li>
                 <li class="spacer"></li>
-                <li><a href="">我的京东</a></li>
+                <li class="fore1 ">
+                    <a href="#">我的京东</a>
+                </li>
                 <li class="spacer"></li>
-                <li><a href="">京东会员</a></li>
+                <li class="fore1">
+                    <a href="//vip.jd.com/">京东会员</a>
+                </li>
                 <li class="spacer"></li>
-                <li><a href="">企业采购</a></li>
+                <li class="fore1">
+                    <a href="//b.jd.com/">企业采购</a>
+                </li>
                 <li class="spacer"></li>
-                <li><a href="">客服服务</a></li>
+                <li class="fore1">
+                    <div class="dt">客户服务</div>
+                </li>
                 <li class="spacer"></li>
-                <li><a href="">网站导航</a></li>
+                <li class="fore1">
+                    <div class="dt">网站导航</div>
+                </li>
                 <li class="spacer"></li>
-                <li><a href="">手机京东</a></li>
+                <li class="fore1">
+                    <div class="dt">手机京东</div>
+                </li>
             </ul>
         </div>
     </div>
@@ -139,24 +85,7 @@
             </a>
             <div class="fenlei">
                 <a href="">全部分类</a>
-                <div>
-                    <ul>
-                        <li><a href="">家用电器</a></li>
-                        <li><a href="">家用电器、手机</a></li>
-                        <li><a href="">家用电器、电脑</a></li>
-                        <li><a href="">家用电器、家居</a></li>
-                        <li><a href="">家用电器、男装</a></li>
-                        <li><a href="">家用电器、美妆</a></li>
-                        <li><a href="">家用电器、女鞋</a></li>
-                        <li><a href="">家用电器、男鞋</a></li>
-                        <li><a href="">家用电器、房产</a></li>
-                        <li><a href="">家用电器、母婴</a></li>
-                        <li><a href="">家用电器、视频</a></li>
-                        <li><a href="">家用电器、食品</a></li>
-                        <li><a href="">家用电器、艺术</a></li>
-                        <li><a href="">家用电器、医药保健</a></li>
-                    </ul>
-                </div>
+
             </div>
             <div class="header-li">
                 <div class="header-ipt">
@@ -165,7 +94,7 @@
                         <input type="submit" name="" value="搜本店">
                         <input type="submit" name="" value="搜全站" style=background-color:#474e5c>
                     </div>
-                    <a href="">我的购物车</a>
+                    <a href="./shop.html">我的购物车</a>
                 </div>
                 <ul class="ul1">
                     <li><a href="">外星人巅峰</a></li>
@@ -215,26 +144,42 @@
         <div>
             <div>
                 <div class="img-l">
-                    <div class="img1"><img
-                            src="https://img11.360buyimg.com/n1/s450x450_jfs/t21217/331/419246822/52803/a0155f77/5b0d0738N42b20171.jpg"
-                            alt="">
-                        <div class="mark"></div>
-                    </div>
-                    <ul class="ul">
-                        <li><img src="https://img11.360buyimg.com/n5/s54x54_jfs/t21217/331/419246822/52803/a0155f77/5b0d0738N42b20171.jpg"
-                                alt=""></li>
-                        <li><img src="https://img11.360buyimg.com/n5/s54x54_jfs/t5821/153/5372149746/249498/addb673b/595f4973N891581f9.jpg"
-                                alt=""></li>
-                        <li><img src="https://img11.360buyimg.com/n5/s54x54_jfs/t5959/333/4237611080/36425/adfabdbe/595f4978N9d42c84c.jpg"
-                                alt=""></li>
-                        <li><img src="https://img11.360buyimg.com/n5/s54x54_jfs/t21217/331/419246822/52803/a0155f77/5b0d0738N42b20171.jpg"
-                                alt=""></li>
-                        <li><img src="https://img11.360buyimg.com/n5/s54x54_jfs/t21217/331/419246822/52803/a0155f77/5b0d0738N42b20171.jpg"
-                                alt=""></li>
-                    </ul>
-                    <div class="img-r">
-                        <img src="https://img11.360buyimg.com/n1/s450x450_jfs/t21217/331/419246822/52803/a0155f77/5b0d0738N42b20171.jpg"
-                            alt="">
+                    <div class="product-intro">
+                        <div class="center">
+                            <div class="product-left">
+                                <div class="box" id="box">
+                                    <div class="smallbox">
+                                        <img src="../img/1.jpg">
+                                        <span class="i_box"></span>
+                                        <div class="search"></div>
+                                    </div>
+                                    <div class="bigbox">
+                                        <img src="../img/big1.jpg" style="position: absolute;left: 0;top:0;">
+                                    </div>
+                                </div>
+
+                                <div class="listimg">
+                                    <a href="javascript:;">
+                                        <i class="sprite-arrow-prev" id="spec-forward"></i>
+                                    </a>
+                                    <a href="javascript:;">
+                                        <i class="sprite-arrow-next" id="spec-backward"></i>
+                                    </a>
+
+                                    <div class="list_center" id="list_center">
+                                        <ul style="position: absolute;top: 0;left: 0;">
+                                            <li><img src="../img/1.jpg" /></li>
+                                            <li><img src="../img/2.jpg" /></li>
+                                            <li><img src="../img/3.jpg" /></li>
+                                            <li><img src="../img/4.jpg" /></li>
+                                            <li><img src="../img/5.jpg" /></li>
+                                            <li><img src="../img/6.jpg" /></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c"></div>
+                        </div>
                     </div>
                 </div>
                 <div class="img-w">
@@ -268,7 +213,8 @@
                         <a href="">预约送货</a>
                         <a href="">部分收货</a>
                     </div>
-                    <div class="w-seven">由 <a href="">京东</a>发货 , 并提供售后服务. 23:10前下单，预计明天<span>(09月12日)</span>送达</div>
+                    <div class="w-seven">由 <a href="">京东</a>发货 , 并提供售后服务. 23:10前下单，预计明天<span>(09月12日)</span>送达
+                    </div>
                     <div class="w-n"><span>重&nbsp;量</span> <i>0.09kg</i></div>
                     <div class="w-c">
                         <span>选择颜色</span>
@@ -304,13 +250,13 @@
                     </div>
                     <div class="w-ipt">
                         <div>
-                            <input type="text" name="" id="" value="1">
+                            <input class="num" type="text" name="num" value="1">
                             <div>
-                                <input type="submit" name="" value="+">
-                                <input type="submit" name="" value="">
+                                <button class="add">+</button>
+                                <button class="cut">-</button>
                             </div>
                         </div>
-                        <a class="join">加入购物车</a>
+                        <a class="join" data-name="千年不变的标题" data-img="../img/1.jpg" data-id="123" data-price="3699.00" data-num="1">加入购物车</a>
                     </div>
                     <div class="tishi">
                         温馨提示
@@ -320,7 +266,7 @@
             </div>
             <div class="tuijian">
                 <h5> <span>店长推荐</span> </h5>
-                <ul>
+                <ul class="tuijian-ul">
                     <li><a href=""><img
                                 src="https://img10.360buyimg.com/n2/jfs/t1/124680/17/11253/155191/5f506411Ef177d358/e34e51c5d6b8a4c5.jpg"
                                 alt=""></a><i>￥5469.00</i></li>
@@ -342,7 +288,7 @@
                 <div>
                     <h3>达人优选</h3>
                 </div>
-                <ul>
+                <ul class="youxuan-ul">
                     <li><a href=""><img
                                 src="https://img14.360buyimg.com/n1/s180x180_jfs/t1/139434/10/6045/105702/5f3f99ebE0f2eace2/f19734b56d4034af.jpg"
                                 alt="">
@@ -434,6 +380,8 @@
     </div>
     <script src="../lib/jquery1.12.4.min.js"></script>
     <script src="../js/detailpage.js"></script>
+    <script src="../js/magnifier.js"></script>
+    <script src="../font/iconfont.js"></script>
 </body>
 
 </html>
