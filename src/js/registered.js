@@ -35,7 +35,7 @@
     // 登录
     $('.login-btn').click(function(){
         $.ajax({
-            url:"../json/login.json",
+            url:"../json/registered.json",
             data:{
                 username: $('#loginname').val(),
                 password: $('#nloginpwd').val()
@@ -44,7 +44,7 @@
             success:function(res){
                 if(res.code === 1){
                     localStorage.setItem('username',$('#loginname').val());
-                    location.href = "../../index.html"
+                    location.href = "./login.html"
                 }
             }
         })

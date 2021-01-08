@@ -427,6 +427,11 @@
     color: #e2231a;
 }
 
+.inform2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .in-list{
     width: 160px;
     padding: 10px;

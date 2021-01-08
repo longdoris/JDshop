@@ -62,47 +62,38 @@
                     </div>
                     <div class="mr-nav">
                         <div class="mr-nav1">
-                            <p class="ma action">扫码登录</p>
-                            <p class="hao">账户登录</p>
+                            <p class="ma action">注册账户</p>
+                            <p class="hao">注册说明</p>
                         </div>
                         <div class="mr-nav2">
                             <!-- 选项卡1 ma -->
                             <div class="mr-nav2ma active">
-                                <div class="erweima">
-                                    <div class="saoma">
-                                        <img src="../img/erweima_2.png" alt="erweima" />
+                                <form id="formlogin" method="post">
+                                    <div class="item item-fore1">
+                                        <label for="loginname" class="iconfont login-label">&#xe608;</label>
+                                        <input id="loginname" type="text" class="itxt" name="loginname" tabindex="1" _input="true"
+                                        autocomplete="off"
+                                        value=""
+                                        placeholder="邮箱/用户名/登录手机"/>
                                     </div>
-                                    <div class="phone">
-                                        <img src="../img/erweima_3.png" alt="phone">
+                                    <div id="entry" class="item item-fore2">
+                                        <label class="iconfont login-label pwd-label" for="nloginpwd">&#xe6e2;</label>
+                                        <input type="password" id="nloginpwd" name="nloginpwd" class="itxt itxt-error"
+                                               tabindex="2" autocomplete="off" _input="true" placeholder="密码"/>
+                                        <!-- <span class="capslock"><b></b>大小写锁定已打开</span> -->
                                     </div>
-                                </div>
-                                <div class="erweima-b">
-                                    <div class="b1">
-                                        <span>打开</span>
-                                        <a href="#">手机京东</a>
-                                        <span>扫描二维码</span>
+                                    <div id="entry" class="item item-fore2">
+                                        <label class="iconfont login-label pwd-label" for="nloginpwd">&#xe6e2;</label>
+                                        <input type="password" id="nloginpwd" name="nloginpwd" class="itxt itxt-error"
+                                               tabindex="2" autocomplete="off" _input="true" placeholder="密码"/>
+                                        <!-- <span class="capslock"><b></b>大小写锁定已打开</span> -->
                                     </div>
-                                    <div class="b2">
-                                        <div class="b2-1">
-                                            <span class="iconfont">
-                                                &#xe631;
-                                            </span>
-                                            免输入
-                                        </div>
-                                        <div class="b2-2">
-                                            <span class="iconfont">
-                                                &#xe606;
-                                            </span>
-                                            更快
-                                        </div>
-                                        <div class="b2-3">
-                                            <span class="iconfont">
-                                                &#xe617;
-                                            </span>
-                                            更安全
+                                    <div class="item item-fore5">
+                                        <div class="login-btn">
+                                            <a href="#">注&nbsp;&nbsp;&nbsp;&nbsp;册</a>
                                         </div>
                                     </div>
-                                </div>
+                                </form>
                             </div>
                             <!-- 选项卡1 ma -->
 
@@ -122,10 +113,15 @@
                                                tabindex="2" autocomplete="off" _input="true" placeholder="密码"/>
                                         <!-- <span class="capslock"><b></b>大小写锁定已打开</span> -->
                                     </div>
-                                    <a href="//passport.jd.com/uc/links?tag=safe" class="element">忘记密码</a>
+                                    <div id="entry" class="item item-fore2">
+                                        <label class="iconfont login-label pwd-label" for="nloginpwd">&#xe6e2;</label>
+                                        <input type="password" id="nloginpwd" name="nloginpwd" class="itxt itxt-error"
+                                               tabindex="2" autocomplete="off" _input="true" placeholder="密码"/>
+                                        <!-- <span class="capslock"><b></b>大小写锁定已打开</span> -->
+                                    </div>
                                     <div class="item item-fore5">
                                         <div class="login-btn">
-                                            <a href="#">登&nbsp;&nbsp;&nbsp;&nbsp;录</a>
+                                            <a href="#">注&nbsp;&nbsp;&nbsp;&nbsp;册</a>
                                         </div>
                                     </div>
                                 </form>
@@ -158,11 +154,11 @@
                             </li>
                         </ul>
                         <div class="mr-br">
-                            <a href="./registered.html">
+                            <a href="./login.html">
                                 <svg class="icon zhuce" aria-hidden="true">
                                     <use xlink:href="#icon-tubiaozhizuomoban_touxiang_zhixiangjiantou_1"></use>
                                 </svg>
-                                立即注册
+                                立即登录
                             </a>
                         </div>
                     </div>
@@ -226,7 +222,7 @@
     </div>
     <!-- wrap end -->
     <script src="../lib/jquery1.12.4.min.js"></script>
-    <script src="../js/login.js"></script>
+    <script src="../js/registered.js"></script>
 </body>
 <script src="../font/iconfont.js"></script>
 </html>
